@@ -1,4 +1,4 @@
-package com.devSpringboot.courseUdemySpringboot.Resoursce;
+package com.devSpringboot.courseUdemySpringboot.controllers;
 
 import com.devSpringboot.courseUdemySpringboot.entities.User;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResource {
+public class Usercontroller {
 
     @GetMapping
     public ResponseEntity<User> findAll(){
